@@ -52,7 +52,7 @@ const VideoCard: ComponentType<IVideoCardProps> = function({ card=false, ...vide
         </Grid>
         <Grid item container xs={6} gap={1} direction='column'>
           <Typography variant="h6"><strong>{video.title}</strong></Typography>
-          <Typography variant='caption'>{millify(video.views ?? 0)} views • {video.timestamp}</Typography>
+          <Typography variant='caption'>{video.timestamp}</Typography>
           <Grid item container spacing={1} alignItems='center'>
             <Grid item>
               <Avatar src={channelImage} />

@@ -36,7 +36,7 @@ export default function SkeletonVideo({card=false}: TCardProps) {
             <Skeleton variant="text" width={80} height={30} />
           </Grid>
         </Grid>
-        <Skeleton variant="text" width={600} height={60} />
+        <Skeleton variant="text" width={400} height={60} />
       </Grid>
     </Grid>
   </Paper>
