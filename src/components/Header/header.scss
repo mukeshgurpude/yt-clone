@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+
+  &__logo {
+    color: red;
+    > svg {
+      object-fit: contain;
+      margin-left: 10px;
+      font-size: 40px;
+    }
+  }
+
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+
+  &__searchbutton {
+    cursor: pointer;
+    opacity: .7;
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    margin-right: 12px;
+  }
+}

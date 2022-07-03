@@ -1,0 +1,25 @@
+.app__wrapper {
+  display: flex;
+  position: relative;
+  margin-top: 64px;
+  padding-top: 20px;
+  width: 100%;
+
+  .sidebar + .wrapper {
+    padding-left: 200px;
+  }
+  .sidebar.expanded + .wrapper {
+    padding-left: 100px;
+  }
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.loading {
+  display: block !important; 
+  width: 50%;
+  margin: auto;
+}

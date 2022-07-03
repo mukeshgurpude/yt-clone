@@ -1,0 +1,23 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  position: fixed;
+  --top-dist: 64px;
+  top: var(--top-dist);
+  left: 0;
+  height: calc(100vh - var(--top-dist));
+
+  &.expanded {
+    width: 100px;
+    flex: unset;
+  }
+
+  > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
